@@ -1,0 +1,88 @@
+#image{
+    display:inline block;
+}
+
+#todo{
+    color: crimson;
+    position: relative;
+    bottom: 40px;
+    height: 40px;
+    left: 550px;
+    font-size: 4rem;
+    font-weight: bold;
+    transition: all 0.4s ease-out;
+    cursor: pointer;
+}
+.two{
+    margin-left: 200px;
+    height: 800px;
+    width: 500px;
+    
+
+}
+body{
+    background-image:url(assignmenttodo.svg) ;
+    background-repeat: repeat-x;
+}
+.big{
+    height: 500px;
+    width: 800px;
+    position: absolute;
+    top: 150px;
+    left: 300px;
+    background-color: rgba(236, 244, 247, 0.671);
+    
+}
+.input{
+    width:792px;
+    height: 30px;
+    border: none;
+
+}
+.sec{
+       position: absolute;
+       top:80px ;
+       left:550px;
+       font-size: 2rem;
+       font-weight: 600;
+       color:crimson;
+       
+}
+#plus
+{
+    position: absolute;
+    height:70px ;
+    width: 70px;
+    cursor: pointer;
+}
+.toolbar{
+    display: flex;
+}
+.tool{
+    margin-right:50px;
+}
+.footer{
+    position: relative;
+    top: 580px;
+    left: 550px;
+    
+
+}
+.foot{
+    padding: 12px;
+    color: crimson;
+}
+.task{
+    display: flex;
+    padding: 12px;
+}
+.trash{
+    margin-right: 20px;
+}
+#list
+{
+    
+}
+
+
+
